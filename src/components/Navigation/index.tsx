@@ -1,11 +1,19 @@
 import Link from "next/link";
 
+import styles from "./styles.module.css";
+
 const Navigation = () => {
   return (
-    <nav>
-      <Link href={"/"}>Home</Link>
-      <Link href={"/services"}>Services</Link>
-      <Link href={"/get-in-touch"}>GET IN TOUCH</Link>
+    <nav className={styles.nav}>
+      <Link href={"/"} className={styles.link}>
+        Home
+      </Link>
+      <Link href={"/services"} className={styles.link}>
+        Services
+      </Link>
+      <Link className={styles.button} href={"/get-in-touch"}>
+        GET IN TOUCH
+      </Link>
     </nav>
   );
 };

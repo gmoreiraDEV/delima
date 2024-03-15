@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 
 const inter = Ubuntu({
   weight: ["300", "400", "500", "700"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
