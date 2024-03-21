@@ -1,0 +1,21 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M0 167V134.5L60 126.5L157.5 123.5L637.5 196C637.5 196 830.561 196.122 953.5 184.5C1145.93 166.309 1440 93.5 1440 93.5V237.5H0L0 167Z"
+    fill="#299D91" />
+  <path
+    d="M1045 132.269C838.231 162.99 711.86 132.269 542.249 101.547C388.152 73.6601 216.268 15.0155 -0.5 4.5L0 124.5C0 124.5 50.9916 108.196 142.883 110C234.775 111.805 351.663 124.073 554.412 155.825C757.11 187.578 899.045 159.898 1045 132.269Z"
+    fill="url(#wave_gradient)" />
+  <path
+    d="M0 134.5C396.062 55.2159 697.745 365.562 1440 0V116.5C1016.48 259.768 701.145 234.401 452.524 178.351C135.077 106.691 59.3715 129.93 6 134"
+    fill="#EC7802" />
+  <defs>
+    <linearGradient id="wave_gradient" x1="1050.78" y1="32.5392" x2="13.9916" y2="120.315"
+      gradientUnits="userSpaceOnUse">
+      <stop stop-color="var(--color-green-200)" />
+      <stop offset="0%" stop-color="#6CBA8F" />
+      <stop offset="40%" stop-color="#46AA8F" />
+      <stop offset="60%" stop-color="#299D91" />
+      <stop offset="100%" stop-color="#008A93" />
+    </linearGradient>
+  </defs>
+</svg>

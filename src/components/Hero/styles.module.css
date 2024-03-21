@@ -1,0 +1,19 @@
+.hero {
+  @apply flex w-full justify-evenly;
+}
+
+.content {
+@apply flex flex-col items-center justify-center;
+}
+
+.content h1 {
+  @apply text-white text-center text-6xl font-bold max-w-[15ch];
+}
+
+.content button {
+  @apply py-3 px-7 bg-white rounded-full mt-4 text-center text-brand-green-500 font-medium hover:text-brand-green-100 hover:bg-brand-green-500;
+}
+
+.bulb {
+  @apply relative w-[600px] h-[600px] -mt-10 z-0;
+}

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import styles from "./styles.module.css";
 
-const Navigation = () => {
+export default function Navigation() {
   return (
     <nav className={styles.nav}>
       <Link href={"/"} className={styles.link}>
@@ -16,6 +16,4 @@ const Navigation = () => {
       </Link>
     </nav>
   );
-};
-
-export default Navigation;
+}

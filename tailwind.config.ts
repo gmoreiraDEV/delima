@@ -15,10 +15,14 @@ const config: Config = {
       },
       colors: {
         brand: {
+          orange: "#EC7802",
           green: {
             100: "#DCF2F0",
             200: "#AFD3CF",
+            300: "#6CBA8F",
+            400: "#46AA8F",
             500: "#299D91",
+            600: "#008A93",
             900: "#0D403A",
           },
         },

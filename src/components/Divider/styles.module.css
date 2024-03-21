@@ -1,0 +1,11 @@
+.wrapper {
+  @apply flex flex-col justify-center items-center;
+}
+
+.arrow {
+  @apply relative w-8 h-8 cursor-pointer;
+}
+
+.wave {
+  @apply w-full h-56 relative;
+}

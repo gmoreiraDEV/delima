@@ -11,6 +11,7 @@ const inter = Ubuntu({
 export const metadata: Metadata = {
   title: "DELIMA",
   description: "Home Improvment",
+  icons: "/favicon.png",
 };
 
 export default function RootLayout({

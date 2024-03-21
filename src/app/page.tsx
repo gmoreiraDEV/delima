@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Divider from "@/components/Divider";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <>
-      <h1>DELIMA</h1>
+      <Hero />
+      <Divider />
     </>
   );
 }
